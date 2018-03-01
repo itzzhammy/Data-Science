@@ -1,0 +1,10 @@
+first=[11.25,18.0,20.0,10.75,9.50]
+second=[10.75,9.50]
+full=first+second
+arr=full.sort()
+fs=sorted(full,reverse=True)
+fs.append(24.5)
+fs.append(15.45)
+print(fs)
+fs.reverse()
+print(fs)
